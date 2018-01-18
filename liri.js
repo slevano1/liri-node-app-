@@ -124,7 +124,7 @@ function spotifySong(song){
         console.log("Album: " + songData.album.name);
         console.log("-----------------------");
       }
-    } 
+  
   });
 }
 
