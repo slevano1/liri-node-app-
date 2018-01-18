@@ -83,7 +83,7 @@ function getTweets(){
 }
 
 function getMovie(movie){
-  var omdbURL = 'http://www.omdbapi.com/?i=' + movie + 'tt3896198&apikey=18f14c81'
+  var omdbURL = 'http://www.omdbapi.com/?t=' + movie + '&y=&plot=short&apikey=18f14c81'
   
 
   request(omdbURL, function (error, response, body){
@@ -93,7 +93,7 @@ function getMovie(movie){
       console.log("Title: " + body.Title);
       console.log("Release Year: " + body.Year);
       console.log("IMdB Rating: " + body.imdbRating);
-      console.log("Rotten Tomatoes Rating: " + body.tomatoRating);
+      console.log("Rotten Tomatoes Rating: " + body.Metascore);
       console.log("Country: " + body.Country);
       console.log("Language: " + body.Language);
       console.log("Plot: " + body.Plot);
