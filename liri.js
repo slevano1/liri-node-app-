@@ -3,7 +3,7 @@ require('dotenv').config();
 
 var fs = require('fs');
 var Twitter = require('twitter');
-var spotify = require('node-spotify-api');
+var Spotify = require('node-spotify-api');
 var request = require('request');
 var Argv = process.argv;
 var command = process.argv[2];
@@ -13,7 +13,8 @@ var valueEntered = process.argv[3];
 var keys = require('./keys.js');
 var client = new Twitter(keys.twitter);
 
-// var spotify = new Spotify(keys.spotify);
+// var spotify = new Spotify({keys.spotify});
+//this seems to break the app  :(
 
 //
 var myTweets = 'my-tweets';
@@ -109,5 +110,31 @@ function getMovie(movie){
       }
     });
 }
+//cannot get spotify to function
+function spotifySong(song){
+  spotify.search({ type: 'track', query: song}, function(err, data){
+    if (err) {
+    return console.log('Error occurred: ' + err);
+  }
+      for(var i = 0; i < data.tracks.items.length; i++){
+        var songData = data.tracks.items[i];
+        console.log("Artist: " + songData.artists[0].name);
+        console.log("Song: " + songData.name);
+        console.log("Preview URL: " + songData.preview_url);
+        console.log("Album: " + songData.album.name);
+        console.log("-----------------------");
+      }
+    } 
+  });
+}
 
+//incomplete right now
+function doWhat(){
+  fs.readFile('random.txt', "utf8", function(error, data){
+    console.log(songs)
+    // var txt = data.split(',');
+
+    // spotifySong(txt[1]);
+  });
+}
 //
