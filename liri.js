@@ -13,6 +13,7 @@ var valueEntered = process.argv[3];
 var keys = require('./keys.js');
 var client = new Twitter(keys.twitter);
 
+
 // var spotify = new Spotify({keys.spotify});
 //this seems to break the app  :(
 
@@ -38,10 +39,10 @@ switch (command){
   break;
 
   case "spotify-this-song":
-  if(valueEntered){
-    spotifySong(valueEntered);
+  if(command){
+    spotifySong(command);
   } else {
-    spotifySong("The Sign")
+    spotifySong("I Want it That Way")
   }
   break;
 
@@ -65,6 +66,7 @@ switch (command){
 
 function getTweets(){
   //Display last 20 Tweets
+  //code from npm install twitter
   var params = {screen_name: 'Fafnir001'};
   client.get('statuses/user_timeline', params, function(error, tweets, response){
     if(!error){
@@ -111,22 +113,23 @@ function getMovie(movie){
     });
 }
 //cannot get spotify to function
+
 function spotifySong(song){
-  spotify.search({ type: 'track', query: song}, function(err, data){
+  spotify.search({ type: 'track', query: command}, function(err, data){
     if (err) {
     return console.log('Error occurred: ' + err);
-  }
-      for(var i = 0; i < data.tracks.items.length; i++){
-        var songData = data.tracks.items[i];
+  } else{
+    var songInfo = data.tracks.items[0];
+    var songData = data.tracks.items[i];
         console.log("Artist: " + songData.artists[0].name);
         console.log("Song: " + songData.name);
         console.log("Preview URL: " + songData.preview_url);
         console.log("Album: " + songData.album.name);
         console.log("-----------------------");
-      }
-  
+    };
   });
-}
+}  
+
 
 //incomplete right now
 function doWhat(){
