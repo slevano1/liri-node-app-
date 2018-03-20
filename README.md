@@ -32,3 +32,12 @@ This will output the following information to your terminal/bash window:
 Using the fs Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
 It should run spotify-this-song for "I Want it That Way," as follows the text in random.txt.
 ```
+
+# Liri Node App Demos
+
+## Liri Tweets
+
+![.gif of working customer file](https://media.giphy.com/media/2wh4YNQuO2f1CnZSnQ/giphy.gif)
+
+## Liri Spotify
+![.gif of working customer file](https://media.giphy.com/media/5UvyAIL2TA1mjgE5ke/giphy.gif)
