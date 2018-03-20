@@ -1,0 +1,28 @@
+@Fafnir001: This week we are covering React -- Created: Thu Mar 15 06:48:37
+@Fafnir001: I want to go home!!!  : ( -- Created: Thu Mar 15 06:44:07
+@Fafnir001: This has been a crazy week!!!!! -- Created: Thu Mar 15 06:43:37
+@Fafnir001: Finally almost done with the Liri App! -- Created: Thu Mar 15 06:42:59
+@Fafnir001: Just blocked/removed an embarrassing 'follower' from my profile.  LOL -- Created: Thu Jan 18 05:53:50
+@Fafnir001: So many tweets to compose to test my code -- Created: Thu Jan 18 05:14:32
+@Fafnir001: Energy drink and some good tunes keeping me going. 🤖 -- Created: Thu Jan 18 05:13:09
+@Fafnir001: Anyone seeing this must be scratching their heads at my random thoughts -- Created: Thu Jan 18 05:14:32
+@Fafnir001: Long night ahead.  Hope this code works when all is said and done.🐸 -- Created: Thu Jan 18 05:09:09
+@Fafnir001: this account is for a coding class. -- Created: Mon Jan 15 01:24:42
+@Fafnir001: this is a test tweet. -- Created: Mon Jan 15 01:24:24
+@Fafnir001: tweetin' the night away
+🐱🐱 -- Created: Thu Jan 18 05:08:18
+@Fafnir001: This week we are covering React -- Created: Thu Mar 15 06:48:37
+-----------------------@Fafnir001: I want to go home!!!  : ( -- Created: Thu Mar 15 06:44:07
+---------------------------------------------------------------------@Fafnir001: Anyone seeing this must be scratching their heads at my random thoughts -- Created: Thu Jan 18 05:14:32
+-----------------------@Fafnir001: This has been a crazy week!!!!! -- Created: Thu Mar 15 06:43:37
+-----------------------@Fafnir001: Finally almost done with the Liri App! -- Created: Thu Mar 15 06:42:59
+-----------------------@Fafnir001: Just blocked/removed an embarrassing 'follower' from my profile.  LOL -- Created: Thu Jan 18 05:53:50
+-----------------------@Fafnir001: So many tweets to compose to test my code -- Created: Thu Jan 18 05:14:32
+@Fafnir001: Energy drink and some good tunes keeping me going. 🤖 -- Created: Thu Jan 18 05:13:09
+@Fafnir001: Long night ahead.  Hope this code works when all is said and done.🐸 -- Created: Thu Jan 18 05:09:09
+-----------------------@Fafnir001: tweetin' the night away
+🐱🐱 -- Created: Thu Jan 18 05:08:18
+@Fafnir001: this account is for a coding class. -- Created: Mon Jan 15 01:24:42
+----------------------------------------------@Fafnir001: this is a test tweet. -- Created: Mon Jan 15 01:24:24
+---------------------------------------------------------------------@Fafnir001: This has been a crazy week!!!!! -- Created: @Fafnir001: I want to go home!!!  : ( -- Created: @Fafnir001: This week we are covering React -- Created: -----------------------@Fafnir001: Finally almost done with the Liri App! -- Created: @Fafnir001: Just blocked/removed an embarrassing 'follower' from my profile.  LOL -- Created: ----------------------------------------------@Fafnir001: Anyone seeing this must be scratching their heads at my random thoughts -- Created: @Fafnir001: So many tweets to compose to test my code -- Created: ----------------------------------------------@Fafnir001: Long night ahead.  Hope this code works when all is said and done.🐸 -- Created: @Fafnir001: tweetin' the night away
+🐱🐱 -- Created: ---------------------------------------------------------------------@Fafnir001: Energy drink and some good tunes keeping me going. 🤖 -- Created: @Fafnir001: this account is for a coding class. -- Created: -----------------------@Fafnir001: this is a test tweet. -- Created: -----------------------

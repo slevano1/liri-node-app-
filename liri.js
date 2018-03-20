@@ -74,7 +74,7 @@ function getTweets() {
                 console.log("-----------------------");
 
                 //adds text to log.txt file
-                fs.appendFile('log.txt', "@Fafnir001: " + tweets[i].text + " -- Created: " + date.substring(0, 19)+'\n');
+                // fs.appendFile('log.txt', "@Fafnir001: " + tweets[i].text + " -- Created: " + date.substring(0, 19));
                 // fs.appendFile('log.txt', "-----------------------");
             }
         } else {console.log('Error occurred')};
