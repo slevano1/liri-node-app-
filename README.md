@@ -36,7 +36,7 @@ It should run spotify-this-song for "I Want it That Way," as follows the text in
 # Liri Node App Demos
 
 ## Liri Tweets
-![.gif of working customer file](https://media.giphy.com/media/8Bkq2XDAq7Z7h97gak/giphy.gif)
+![.gif of working customer file](https://media.giphy.com/media/NULvZMgY3sPpMdtfPR/giphy.gif)
 
 ## Liri Spotify
 ![.gif of working customer file](https://media.giphy.com/media/5UvyAIL2TA1mjgE5ke/giphy.gif)
